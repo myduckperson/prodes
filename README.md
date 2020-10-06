@@ -1,2 +1,0 @@
-# prodes
-school project
