@@ -171,6 +171,57 @@ width: 2000px;
     text-align: center;
 }
 /* BestEver */
+/*Galary*/
+.galary{
+    position: relative;
+}
+.projectbackground{
+    position: absolute;
+    height: 300px;
+    width: 2000px;
+    z-index: -1;
+}.doska{
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    left: 100px;
+    height: 270px;
+    width: 1800px;
+}
+.nameproject{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.project1{
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    height: 270px;
+}
+.imgproject1{
+    height: 270px;
+}
+.textproject1{
+position: absolute;
+right: -40px;
+top: 50%;
+}
+.project2{
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    height: 270px;
+}
+.imgproject2{
+    height: 270px;
+}
+.textproject2{
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    }
+/*Galary*/
 /*later*/
 @media screen and (max-width: 768px){
     .topnav a:not(:first-child) {
