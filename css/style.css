@@ -5,6 +5,13 @@
 }
 a{
     text-decoration: none;
+}
+.header a{
+color: white;
+text-decoration: none;
+}
+.w a{
+    text-decoration: none;
     color: black;
 }
 li{
@@ -25,7 +32,7 @@ body{
 .logo{
     position: relative;
     height: 200px;
-    background: #ffffff;
+    background: black;
     
     
     justify-content: left;
@@ -53,18 +60,18 @@ nav{
     top: 1px;
     right: 1px;
 
-    background-color: #ffffff;
+    background-color: black;
     font-size: 16px;
     margin-top: 40px;
 }
 .topnav a{
-    color: #000;
+    color:white;
     text-align: center;
     padding: 14px 16px;
     font-size: 15px;
 }
 .topnav a:hover{
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid white;
 }
 .topnav .icon{
     display: none;
@@ -85,143 +92,111 @@ nav{
     ;
 }
 /*advertisment*/
-/* zeblock */
-.news{
+/*newers*/
+.newersname{
+    position: absolute;
+    top: -30px;
+    left: 10px;
+}
+.newer{
+    margin-top: 30px;
     position: relative;
-}
-.new{
-    position: absolute;
-    top: 50%;
-    left: 950px;
-    text-align: center;
-    background-color: blanchedalmond;
-    }
-.zews{
-    
-    z-index: -1;
-    
-    text-align: center;
-}
-.text{
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 400px;
-    width: 100px;
-    background-color: aliceblue;
-    color: black;
-}
-.text2{
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    width: 100px;
-    right: 400px;
-    background-color: aliceblue;
-}
-.wide{
-width: 2000px;
-    height: 300px;
-}
-/* zeblock */
-/* BestEver */
-.BestEver{
-    position: relative;
-}
-.wall{
-    position: relative;
-}
-.background{
-    height: 450px;
-    width: 2000px;
-}
-.achivments{
-    position: absolute;
-    top: 50%;
-    left: 950px;
-    background-color: blanchedalmond;
-}
-.ramka{
-    position: absolute;
-    top: 20%;
-    left: 200px;
-}
-.diplom{
-    height: 300px;
-}
-.PD{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-}
-/*The best ever*/
-.ramka2{
-    position: absolute;
-    top: 20%;
-    right: 200px;
-}
-.gramota{
-    height: 300px;
-}
-.PD2{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-}
-/* BestEver */
-/*Galary*/
-.galary{
-    position: relative;
-}
-.projectbackground{
-    position: absolute;
-    height: 300px;
-    width: 2000px;
-    z-index: -1;
-}.doska{
-    position: absolute;
-    text-align: center;
-    top: 15px;
-    left: 100px;
-    height: 270px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 500px;
     width: 1800px;
 }
-.nameproject{
+.newers{
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 500px;
+    width: 1800px;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+}
+.newest{
+    position: relative;
+    padding: 30px;
+    width: 344px;
+    height: 436px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.newers img{
+    width: 346px;
+}
+.ekoimg{
+    overflow: hidden;
+    height: 170px;
+    width: 346px;
+}
+/* newers */
+/*galary*/
+.galary{
+    margin-top: 30px;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 500px;
+    width: 1900px;
+}
+.maingalary{
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 500px;
+    width: 1900px;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    z-index: -1;
+}
+.project{
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+}
+.galary img{
+    padding: 30px 40px 30px 40px ;
+    width: 90%;
+}
+/*galary*/
+ /*Best2*/
+.BestEver{
+    position: relative;
+    left: 50px;
+    right: 50px;
+    height: 500px;
+    width: 1800px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.Bestimg{
+    padding: 30px 50px 30px 50px ;
+    height: 436px;
+    width: 350px;
+    position: relative;
+    text-align: center;
+}
+.Bestname{
     position: absolute;
-    top: 50%;
-    width: 100%;
+    top: -10px;
 }
-.project1{
+.BestEver img{
+    z-index: -1;
+    height: 436px;
+    width: 350px;
+}
+
+.diplom{
+    width: 100px;
     position: absolute;
-    left: 0px;
-    top: 0%;
-    height: 270px;
+    text-align: center;
+    bottom: 0px;
+    left: 50%;
+margin-left: -50px;
 }
-.imgproject1{
-    height: 270px;
-}
-.textproject1{
-position: absolute;
-right: -40px;
-top: 50%;
-}
-.project2{
-    position: absolute;
-    right: 0px;
-    top: 0%;
-    height: 270px;
-}
-.imgproject2{
-    height: 270px;
-}
-.textproject2{
-    position: absolute;
-    left: -40px;
-    top: 50%;
-    }
-/*Galary*/
+
 /*later*/
 @media screen and (max-width: 768px){
     .topnav a:not(:first-child) {
@@ -252,3 +227,287 @@ top: 50%;
     }
 }
 /*later*/
+
+/*group1*/
+/*group1*/
+/*group1*/
+/*the front page*/
+.Josh1{
+    position: relative;
+    width: 1800px;
+}
+.Romero img{
+    width: 1200px;
+    float: left;
+}
+.group1text{
+    width: 1800px;
+    height: 820px;
+    font: 50px bold ;
+    color:  red;
+    text-align: center;
+}
+.group1text p{
+    height: 820px;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle
+}
+/*the front page*/
+/*enjoers*/
+.ppl1{
+    position: relative;
+    width: 1800px;
+    height: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.ppl1name{
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+}
+.pplgroup1{
+    top: 200px;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    width: 1800px;
+    height: 800px;
+}
+.pplgroup1 div{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px 100px 0px 100px;
+    border: 5px solid red;
+    height: 800px;
+    width: 700px;
+}
+/*enjoers*/
+/*profs1*/
+.profs1{
+    height: 600px;
+    width: 1600px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.allprofs1{
+    margin-top: 40px;
+    position: relative;
+}
+.profs1name{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+.design{
+    height: 520px;
+    width: 500px;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.design:not(:first-child):not(:last-child){
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.desimg{
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+}
+.desimg img{
+    width: 500px;
+}
+.profs1text{
+    text-align: center;
+}
+/*profs1*/
+/*projects1*/
+.projects1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 500px;
+    width: 1800px;
+}
+.projects1main{
+    height: 600px;
+    width: 1800px;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+}
+.project1{
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+.project1:not(:first-child):not(:last-child){
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.projects1 img{
+    padding-top: 30px;
+}
+.project11{
+    height: 500px;
+    width: 500px;
+}
+.project12{
+    height: 500px;
+    width: 500px;
+}
+.project13{
+    height: 500px;
+    width: 500px;
+}
+/*projects1*/
+/*group1*/
+/*group1*/
+/*group1*/
+
+/*group2*/
+/*group2*/
+/*group2*/
+/*the front page*/
+.Josh2{
+    position: relative;
+    width: 1800px;
+}
+.Carmack img{
+    width: 1200px;
+    float: left;
+}
+.group2text{
+    width: 1800px;
+    height: 820px;
+    font: 50px bold ;
+    color:  red;
+    text-align: center;
+}
+.group2text p{
+    height: 820px;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle
+}
+/*the front page*/
+/*enjoers*/
+.ppl2{
+    position: relative;
+    width: 1800px;
+    height: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.ppl2name{
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+}
+.pplgroup2{
+    top: 200px;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    width: 1800px;
+    height: 800px;
+}
+.pplgroup2 div{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px 100px 0px 100px;
+    border: 5px solid red;
+    height: 800px;
+    width: 700px;
+}
+/*enjoers*/
+/*profs2*/
+.profs2{
+    height: 600px;
+    width: 1600px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.allprofs2{
+    margin-top: 40px;
+    position: relative;
+}
+.profs2name{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+.programming{
+    height: 520px;
+    width: 500px;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.programming:not(:first-child):not(:last-child){
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.proimg{
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+}
+.proimg img{
+    width: 500px;
+}
+.profs2text{
+    text-align: center;
+}
+/*profs2*/
+/*projects2*/
+.projects2{
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 900px;
+    width: 1800px;
+}
+.projects2main{
+    height: 1800px;
+    width: 1800px;
+    display: block;
+    position: relative;
+}
+.outproject2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    height: 282px;
+    width: 1600px;
+}
+.project2{
+    overflow: hidden;
+    height: 282px;
+    width: 500px;
+}
+.projects2 img{
+    height: 282px;
+    width: 500px;
+}
+.outproject2 p{
+    top: 0px;
+    left: 501px;
+    position: absolute;
+}
+/*projects2*/
+/*group2*/
+/*group2*/
+/*group2*/
