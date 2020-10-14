@@ -1,12 +1,14 @@
-*{
+*{ 
+    color: white;
+    background-color: black;
     margin: 0;
     padding: 0;
-
+}
+p{
+    color: white;
 }
 a{
-    text-decoration: none;
-}
-.header a{
+text-decoration: none;
 color: white;
 text-decoration: none;
 }
@@ -33,15 +35,11 @@ body{
     position: relative;
     height: 200px;
     background: black;
-    
-    
     justify-content: left;
     z-index: -1;
 }
 .graphiclogo{
-    
     padding: 5px;
-    max-width: 100%;
     height: 150px;
     box-sizing: border-box;
 }
@@ -50,16 +48,10 @@ body{
     width: 20px;
     box-sizing: content-box;
 }
-nav{
-    margin: auto;
-    width: 800px;
-    height: 100px;
-}
 .topnav{
     position: absolute;
     top: 1px;
     right: 1px;
-
     background-color: black;
     font-size: 16px;
     margin-top: 40px;
@@ -78,121 +70,113 @@ nav{
 }
 /*nav*/
 /*advertisment*/
-.reklama{
-    position: relative;
-    z-index: 1;
-}
-.yznat{
-    position: absolute;
-    top: 80%;
-    left: 200px;
-    border: solid 5px;
-    border-color: #5ada6b;
-    font-size: 36px;
-    ;
+.video video{
+    width: 100%;
 }
 /*advertisment*/
 /*newers*/
+.newer a{
+    color: white;
+}
 .newersname{
     position: absolute;
-    top: -30px;
+    top: -50px;
     left: 10px;
 }
 .newer{
-    margin-top: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
     position: relative;
-    margin-right: 50px;
-    margin-left: 50px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     height: 500px;
-    width: 1800px;
+    width: 95%;
 }
-.newers{
-    margin-right: 50px;
-    margin-left: 50px;
+.newers{ 
     height: 500px;
-    width: 1800px;
+    width: 100%;
     flex-wrap: wrap;
     display: flex;
     position: relative;
 }
 .newest{
+    box-sizing: border-box;
     position: relative;
-    padding: 30px;
-    width: 344px;
-    height: 436px;
-    border: 2px solid black;
+    padding: 1.57%;
+    width: 25%;
+    height: 350px;
+    border: 2px solid white;
     border-radius: 10px;
 }
 .newers img{
-    width: 346px;
+    width: 100%;
 }
 .ekoimg{
     overflow: hidden;
     height: 170px;
-    width: 346px;
+    width: 100%;
 }
 /* newers */
 /*galary*/
 .galary{
-    margin-top: 30px;
+    margin: 30px 0px 30px 0px;
     position: relative;
-    margin-right: 50px;
-    margin-left: 50px;
+    padding-right: 5%;
+    padding-left: 5%;
     height: 500px;
-    width: 1900px;
+    width: 90%;
 }
 .maingalary{
-    margin-right: 50px;
-    margin-left: 50px;
     height: 500px;
-    width: 1900px;
+    width: 100%;
     flex-wrap: wrap;
     display: flex;
     position: relative;
-    z-index: -1;
 }
 .project{
-    overflow: hidden;
-    height: 400px;
-    width: 400px;
+    box-sizing: border-box;
+    padding: 1.66% 2.22% 1.66% 2.22% ;
+    width: 25%;
 }
 .galary img{
-    padding: 30px 40px 30px 40px ;
-    width: 90%;
+    width: 100%;
 }
 /*galary*/
  /*Best2*/
+.BestEver a{
+    color: white;
+}
 .BestEver{
     position: relative;
-    left: 50px;
-    right: 50px;
-    height: 500px;
-    width: 1800px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    height: auto;
+    width: 95%;
     flex-wrap: wrap;
     display: flex;
 }
 .Bestimg{
-    padding: 30px 50px 30px 50px ;
-    height: 436px;
-    width: 350px;
+    padding: 1.578% 2.63% 1.578% 2.63% ;
+    height: auto;
+    width: 19.7%;
     position: relative;
     text-align: center;
 }
 .Bestname{
     position: absolute;
-    top: -10px;
+    top: -30px;
 }
 .BestEver img{
     z-index: -1;
-    height: 436px;
-    width: 350px;
+    height: auto;
+    width: 100%;
 }
 
 .diplom{
-    width: 100px;
+    width: 5.26%;
     position: absolute;
     text-align: center;
-    bottom: 0px;
+    bottom: 10px;
     left: 50%;
 margin-left: -50px;
 }
@@ -232,96 +216,73 @@ margin-left: -50px;
 /*group1*/
 /*group1*/
 /*the front page*/
-.Josh1{
+.John1{
+    height: auto;
     position: relative;
-    width: 1800px;
+    width: 90%;
+}
+.Romero{
+    height: fit-content;
+    width: 66.66%;
 }
 .Romero img{
-    width: 1200px;
+    width: 100%;
     float: left;
 }
 .group1text{
-    width: 1800px;
-    height: 820px;
+    width: 90%;
+    height: fit-content;
     font: 50px bold ;
     color:  red;
     text-align: center;
 }
 .group1text p{
-    height: 820px;
-    min-height: 10em;
-    display: table-cell;
-    vertical-align: middle
+    height: fit-content;
+    text-align: center;
 }
 /*the front page*/
-/*enjoers*/
-.ppl1{
-    position: relative;
-    width: 1800px;
-    height: 1000px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.ppl1name{
-    position: absolute;
-    text-align: center;
-    top: 50px;
-    width: 100%;
-}
-.pplgroup1{
-    top: 200px;
-    position: relative;
-    flex-wrap: wrap;
-    display: flex;
-    width: 1800px;
-    height: 800px;
-}
-.pplgroup1 div{
-    text-align: center;
-    box-sizing: border-box;
-    margin: 0px 100px 0px 100px;
-    border: 5px solid red;
-    height: 800px;
-    width: 700px;
-}
-/*enjoers*/
+
 /*profs1*/
 .profs1{
-    height: 600px;
-    width: 1600px;
-    margin-left: 100px;
-    margin-right: 100px;
+    height: auto;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
 }
 .allprofs1{
+    height: auto;
+    width: 100%;
     margin-top: 40px;
     position: relative;
 }
 .profs1name{
     position: absolute;
-    top: -20px;
-    left: 0px;
+    top: 0px;
+    left: -80px;
 }
 .design{
-    height: 520px;
-    width: 500px;
+    height: auto;
+    width: 31.25%;
     position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 .design:not(:first-child):not(:last-child){
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 3.125%;
+    padding-right: 3.125%;
 }
 .desimg{
-    height: 300px;
-    width: 500px;
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
     overflow: hidden;
 }
 .desimg img{
-    width: 500px;
+    height: auto;
+    width: 100%;
 }
 .profs1text{
     text-align: center;
@@ -332,43 +293,65 @@ margin-left: -50px;
     margin-top: 30px;
     margin-bottom: 30px;
     position: relative;
-    margin-right: 100px;
-    margin-left: 100px;
-    height: 500px;
-    width: 1800px;
+    padding-right: 10%;
+    padding-left: 10%;
+    height: auto;
+    width: 80%;
 }
 .projects1main{
-    height: 600px;
-    width: 1800px;
+    height: auto;
+    width: 100%;
     flex-wrap: wrap;
     display: flex;
     position: relative;
 }
 .project1{
     overflow: hidden;
-    height: 500px;
-    width: 500px;
+    height: auto;
+    width: 31.25%;
 }
 .project1:not(:first-child):not(:last-child){
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 3.125%;
+    padding-right: 3.125%;
 }
 .projects1 img{
     padding-top: 30px;
+    height: auto;
+    width: 100%;
 }
-.project11{
-    height: 500px;
-    width: 500px;
-}
-.project12{
-    height: 500px;
-    width: 500px;
-}
-.project13{
-    height: 500px;
-    width: 500px;
-}
+
 /*projects1*/
+/*enjoers*/
+.ppl1{
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.ppl1name{
+    position: relative;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+}
+.pplgroup1{
+    top: 150px;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+}
+.pplgroup1 div{
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid red;
+    height: auto;
+    width: 50%;
+}
+/*enjoers*/
 /*group1*/
 /*group1*/
 /*group1*/
@@ -377,96 +360,69 @@ margin-left: -50px;
 /*group2*/
 /*group2*/
 /*the front page*/
-.Josh2{
+.John2{
     position: relative;
-    width: 1800px;
+    width: 90%;
 }
 .Carmack img{
-    width: 1200px;
+    width: 66.66%;
     float: left;
 }
 .group2text{
-    width: 1800px;
-    height: 820px;
+    width: 100%;
+    height: auto;
     font: 50px bold ;
     color:  red;
     text-align: center;
 }
 .group2text p{
-    height: 820px;
-    min-height: 10em;
-    display: table-cell;
-    vertical-align: middle
+    height: auto;
+    text-align: center;
 }
 /*the front page*/
-/*enjoers*/
-.ppl2{
-    position: relative;
-    width: 1800px;
-    height: 1000px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.ppl2name{
-    position: absolute;
-    text-align: center;
-    top: 50px;
-    width: 100%;
-}
-.pplgroup2{
-    top: 200px;
-    position: relative;
-    flex-wrap: wrap;
-    display: flex;
-    width: 1800px;
-    height: 800px;
-}
-.pplgroup2 div{
-    text-align: center;
-    box-sizing: border-box;
-    margin: 0px 100px 0px 100px;
-    border: 5px solid red;
-    height: 800px;
-    width: 700px;
-}
-/*enjoers*/
+
 /*profs2*/
 .profs2{
-    height: 600px;
-    width: 1600px;
-    margin-left: 100px;
-    margin-right: 100px;
+    height: auto;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
 }
 .allprofs2{
+    height: auto;
+    width: 100%;
     margin-top: 40px;
     position: relative;
+    bottom: -40px;
 }
 .profs2name{
     position: absolute;
-    top: -20px;
-    left: 0px;
+    top: 0px;
+    left: -80px;
 }
 .programming{
-    height: 520px;
-    width: 500px;
+    height: auto;
+    width: 31.25%;
     position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 .programming:not(:first-child):not(:last-child){
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 3.125%;
+    padding-right: 3.125%;
 }
 .proimg{
-    height: 300px;
-    width: 500px;
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
     overflow: hidden;
 }
 .proimg img{
-    width: 500px;
+    height: auto;
+    width: 100%;
 }
 .profs2text{
     text-align: center;
@@ -474,40 +430,241 @@ margin-left: -50px;
 /*profs2*/
 /*projects2*/
 .projects2{
+    margin-top: 30px;
+    margin-bottom: 30px;
     position: relative;
-    margin-right: 100px;
-    margin-left: 100px;
-    height: 900px;
-    width: 1800px;
+    margin-left: 5%;
+    height: auto;
+    width: 80%;
 }
 .projects2main{
-    height: 1800px;
-    width: 1800px;
+    height: auto;
+    width: 100%;
     display: block;
     position: relative;
 }
 .outproject2{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     position: relative;
-    height: 282px;
-    width: 1600px;
+    height: auto;
+    width: 100%;
 }
 .project2{
     overflow: hidden;
-    height: 282px;
-    width: 500px;
+    height: auto;
+    width: 31.25%;
 }
 .projects2 img{
-    height: 282px;
-    width: 500px;
+    width: 100%;
 }
 .outproject2 p{
+    padding-top: 30px;
     top: 0px;
-    left: 501px;
+    left: 31.25%;
     position: absolute;
 }
 /*projects2*/
+/*enjoers*/
+.ppl2{
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.ppl2name{
+    position: relative;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+}
+.pplgroup2{
+    top: 150px;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+}
+.pplgroup2 div{
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid red;
+    height: auto;
+    width: 50%;
+}
+/*enjoers*/
 /*group2*/
 /*group2*/
 /*group2*/
+
+/*concurs*/
+/*concurs*/
+/*concurs*/
+.fix{
+    width: 100%;
+}
+.pagename4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/*big*/
+.bigger{
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    width: 90%;
+    height: auto;
+}
+.big{
+    width: 100%;
+    position: relative;
+}
+.bigimg{
+    position: relative;
+    height: auto;
+    width: 81.25%;
+}
+.bigtext{
+    left: 81.25%;
+    bottom: -43px;
+    position: relative;
+  width: 400px;
+}
+.big a{
+    height: auto;
+}
+/*big*/
+/*smol*/
+.smaller{
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+    height: auto;
+    width: 90%;
+}
+.concurs{
+    height: auto;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.outconcurs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    height: auto;
+    width: 88.888%;
+}
+.concur{
+    height: auto;
+    width: 31.25%;
+}
+.concur img{
+    height: auto;
+    width: 100%;
+}
+.outconcurs p{
+    top: 0px;
+    left: 31.28%;
+    position: absolute;
+}
+/*smol*/
+/*concurs*/
+/*concurs*/
+/*concurs*/
+
+/*maingalary*/
+/*maingalary*/
+/*maingalary*/
+.maingalaryname{
+    text-align: center;
+}
+/*photo_galary*/
+.galaryphotos{
+    margin-top: 100px;
+    position: relative;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    height: auto;
+    width: 95%;
+}
+.maingalaryphotos{
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+}
+.photo{
+    padding: 30px 2.21% 30px 2.21% ;
+    height: auto;
+    width: 20.58%;
+}
+.galaryphotos img{
+    width: 100%;
+}
+/*photo_galary*/
+/*reward*/
+/*photo_galary*/
+.reward{
+    margin-top: 100px;
+    position: relative;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    height: auto;
+    width: 95%;
+}
+.mainreward{
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+}
+.rewarded{
+    padding: 30px 2.21% 30px 2.21% ;
+    height: auto;
+    width: 20.58%;
+}
+.reward img{
+    width: 100%;
+}
+/*reward*/
+/*proprojects*/
+.proprojectname{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.proprojects{
+    position: relative;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: auto;
+    width: 90%;
+}
+
+.eko1{
+    float: left;
+    height: auto;
+    width: 41.66%;
+}
+.ekonom{
+    height: auto;
+    display: block;
+}
+.right{
+    padding-bottom: 12%;
+}
+.left {
+    padding-bottom: 12%;
+    padding-top: 12%;
+    width: 100%;
+}
+/*proprojects*/
+/*maingalary*/
+/*maingalary*/
+/*maingalary*/
