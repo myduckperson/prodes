@@ -14,7 +14,6 @@ text-decoration: none;
 }
 .w a{
     text-decoration: none;
-    color: black;
 }
 li{
     text-decoration: none;
@@ -30,13 +29,21 @@ header{
 body{
     font-family: 'Raleway', sans-serif;
 }
+.bruh{
+    z-index: 2;
+    overflow: hidden;
+    height: 5%;
+    width: 5%;
+    position: fixed;
+    left: 2.5%;
+    bottom: 5%;
+}
 /*nav*/
 .logo{
     position: relative;
     height: 200px;
     background: black;
     justify-content: left;
-    z-index: -1;
 }
 .graphiclogo{
     padding: 5px;
@@ -75,9 +82,6 @@ body{
 }
 /*advertisment*/
 /*newers*/
-.newer a{
-    color: white;
-}
 .newersname{
     position: absolute;
     top: -50px;
@@ -217,27 +221,22 @@ margin-left: -50px;
 /*group1*/
 /*the front page*/
 .John1{
-    height: auto;
+    z-index: 2;
     position: relative;
     width: 90%;
 }
 .Romero{
-    height: fit-content;
+    height: auto;
     width: 66.66%;
-}
-.Romero img{
-    width: 100%;
     float: left;
 }
 .group1text{
-    width: 90%;
-    height: fit-content;
-    font: 50px bold ;
+    font: 30px bold ;
     color:  red;
     text-align: center;
 }
 .group1text p{
-    height: fit-content;
+    height: auto;
     text-align: center;
 }
 /*the front page*/
@@ -253,6 +252,7 @@ margin-left: -50px;
     flex-wrap: wrap;
 }
 .allprofs1{
+    top: 40px;
     height: auto;
     width: 100%;
     margin-top: 40px;
@@ -289,6 +289,10 @@ margin-left: -50px;
 }
 /*profs1*/
 /*projects1*/
+.projects1name{
+position: relative;
+left: -40px;
+}
 .projects1{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -361,17 +365,17 @@ margin-left: -50px;
 /*group2*/
 /*the front page*/
 .John2{
+    z-index: 2;
     position: relative;
     width: 90%;
 }
-.Carmack img{
+.Carmack{
+    height: auto;
     width: 66.66%;
     float: left;
 }
 .group2text{
-    width: 100%;
-    height: auto;
-    font: 50px bold ;
+    font: 30px bold ;
     color:  red;
     text-align: center;
 }
@@ -401,7 +405,7 @@ margin-left: -50px;
 .profs2name{
     position: absolute;
     top: 0px;
-    left: -80px;
+    left: -100px;
 }
 .programming{
     height: auto;
@@ -429,6 +433,10 @@ margin-left: -50px;
 }
 /*profs2*/
 /*projects2*/
+.projects2name{
+    position: relative;
+    left: -30px;
+}
 .projects2{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -529,10 +537,11 @@ margin-left: -50px;
     width: 81.25%;
 }
 .bigtext{
+    text-align: left;
     left: 81.25%;
-    bottom: -43px;
-    position: relative;
-  width: 400px;
+    padding-top: 0.1%;
+    position: absolute;
+  width: 21.052%;
 }
 .big a{
     height: auto;
@@ -636,6 +645,8 @@ margin-left: -50px;
 /*reward*/
 /*proprojects*/
 .proprojectname{
+    position: relative;
+    left: -40px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -643,7 +654,7 @@ margin-left: -50px;
     position: relative;
     margin-right: 5%;
     margin-left: 5%;
-    height: auto;
+    height: 100%;
     width: 90%;
 }
 
@@ -653,18 +664,51 @@ margin-left: -50px;
     width: 41.66%;
 }
 .ekonom{
-    height: auto;
+    height: 100%;
     display: block;
 }
-.right{
-    padding-bottom: 12%;
-}
 .left {
-    padding-bottom: 12%;
-    padding-top: 12%;
+    padding-bottom: 2.5%;
     width: 100%;
 }
 /*proprojects*/
+/*projects2*/
+.desprojects{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 5%;
+    height: auto;
+    width: 80%;
+}
+.desprojectsmain{
+    height: auto;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.outdesproject{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.desproject{
+    overflow: hidden;
+    height: auto;
+    width: 31.25%;
+}
+.desprojects img{
+    width: 100%;
+}
+.outdesproject p{
+    padding-top: 30px;
+    top: 0px;
+    left: 31.25%;
+    position: absolute;
+}
+/*projects2*/
 /*maingalary*/
 /*maingalary*/
 /*maingalary*/
