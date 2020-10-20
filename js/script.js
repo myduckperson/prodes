@@ -1,6 +1,6 @@
 $(function(){
-    $('.centericon').on('click', function(){
-        $('.nav').slideToggle(300, function(){
+    $('.menuToggle').on('click', function(){
+        $('.menu').slideToggle(300, function(){
             if($(this).css('display') === 'none'){
                 $(this).removeAttr('style')
             }
