@@ -88,6 +88,9 @@ body{
     display: none;
 }
 @media screen and (max-width: 820px){
+    .bigtext{
+        display: none;
+    }
     .nonmobile{
         display: none;
     }
